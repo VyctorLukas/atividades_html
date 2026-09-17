@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 4 :]</title>
+</head>
+<body>
+    <h1 align="left">Formulário</h1>
+
+    <form>
+     Dados pessoais   
+    <fieldset>
+
+    <label for="nome">Nome:</label>
+    <input type="text" name="nome" size="25" maxlength="30">
+     
+    <br><br>
+
+    <label for="endereco">Endereço:</label>
+    <input type="text" name="endereco" size="25" maxlength="50">
+    
+    <br><br>
+
+    <label for="cidade">Cidade:</label>
+    <input type="text" name="cidade" size="25" maxlength="20">
+
+    <br><br>
+
+    <label for="estado">Estado:</label>
+    
+    <select name="estado" size="1" value="São Paulo">
+        <option>São Paulo</option>
+        <option>Rio de Janeiro</option>
+        <option>Minas Gerais</option>
+        <option>Espirito Santo</option>
+    </select>
+
+    <br><br>
+    </fieldset>
+
+    <br>
+
+    Dados profissionais
+    <fieldset>
+        <label for="natureza">Natureza do Cargo</label> <br>
+        <input type="radio" name="natureza"> Gerência
+        <input type="radio" name="natureza"> Financeiro 
+        <input type="radio" name="natureza"> Recepção
+        <input type="radio" name="natureza"> Administrativo 
+        <input type="radio" name="natureza"> Jurídico
+
+        <br><br>
+
+        <label for="area">Área de interesse</label> <br>
+        <input type="checkbox" name="area"> Computação
+        <input type="checkbox" name="area"> Biologia
+        <input type="checkbox" name="area"> Meio Ambiente
+        <input type="checkbox" name="area"> Engenharia
+        <input type="checkbox" name="area"> História
+
+        <br><br>
+
+        <label for="curriculo">Mini-currículo:</label>
+        <br>
+
+        <textarea name="curriculo" rows="5" cols="50"></textarea>
+    </fieldset>
+
+    <label for="confirm"></label>
+    <br>
+    <input type="submit" name="confirm" value="Enviar">
+
+    <label for="limpar"></label>
+    <input type="reset" name="limpar" value="Limpar">
+    </form>
+</body>
+</html>
